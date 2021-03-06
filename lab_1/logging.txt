@@ -1,0 +1,4 @@
+22:42:46,432 root INFO Took 1180.3994817733765 to load data to temp table
+22:43:19,675 root INFO Took 33.24153399467468 to merge queries
+23:06:23,487 root INFO Took 1382.4673430919647 to load data to temp table
+23:07:01,667 root INFO Took 38.17753005027771 to merge queries
