@@ -29,3 +29,6 @@ and then retries execution
 
 You can test fault tolerance of the ingestion by stopping and then rerunning Postgres Server during the execution
 of the script. Retrying mechanism will restart the script. 
+
+## Legend
+"Порівняти найгірший бал з Української мови та літератури у кожному регіоні у 2020 та 2019 роках серед тих кому було зараховано тест"
