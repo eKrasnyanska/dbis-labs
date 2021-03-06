@@ -31,10 +31,8 @@ def postgres_db_hook(host: str = "localhost",
     return cursor, connection
 
 
-# @retry(wait_exponential_max=3)
 def insert_data_from_csv_to_db(cursor, connection,
                                year: int, file_name: str = "", table_name: str = "") -> None:
-    # cursor, connection = postgres_db_hook()
     with open(file_name, encoding='Windows-1251') as csv_file:
         numerical_columns = ["Birth", "UkrAdaptScale"]
         columns = csv.DictReader(csv_file, delimiter=';').fieldnames
@@ -57,8 +55,6 @@ def insert_data_from_csv_to_db(cursor, connection,
                     row[index] = element.replace('"', '`')
                 if isinstance(element, str) and "'" in element:
                     row[index] = element.replace("'", '`')
-            # if counter == 2:
-            #     break
 
             insert_query = f"""
             INSERT INTO {table_name} ({", ".join((f"{column}" for column in columns))})
