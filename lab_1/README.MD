@@ -14,6 +14,7 @@
 2. Then execute "python3 main.py"
 3. Wait until script will finish its execution with return code "0"
 4. Find "lab_results.csv" <- Lab Assignment
+
    and "logging.txt"     <- Benchmarks
 
 
