@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS CityRegion(
+    AreaName VARCHAR PRIMARY KEY,
+    Regname VARCHAR,
+    TerTypeName VARCHAR
+);

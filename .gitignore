@@ -1,0 +1,6 @@
+.DS_Store
+.idea/
+text.txt
+*__pycache__*
+backup
+env

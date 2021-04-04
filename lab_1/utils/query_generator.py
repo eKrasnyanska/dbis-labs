@@ -7,7 +7,6 @@ def get_schema(file_name: str = "") -> Dict[str, str]:
         data = csv.reader(csv_file, delimiter=';')
         numerical_columns = ["Birth", "UkrAdaptScale"]
         columns = next(data)
-        len(columns)
         columns_types = {}
         for col in columns:
             if "Ball" in col:
