@@ -91,10 +91,10 @@ If you want to check Data Ingestion processes follow the next workflow:
   
   1. Differentiated the table zno_results to person, registration, education, cityregion
   2. The main relations are:
+    * outid in person 1->n outid in results
+    * RegistrationLocation person n<-1 locationID in registration
+    * EOName person 1 -> EOName in education
 
 
-    * outid in **person** 1->n outid in **results**
-    * RegistrationLocation **person** n<-1 locationID in registration
-    * EOName **person** 1 -> EOName in **education**
   3. Created schema migration and data ingestion processes
  
