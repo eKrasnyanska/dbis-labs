@@ -1,0 +1,4 @@
+starting mongoDB ingestion
+Took 1078.0050430297852 seconds to finish the task
+starting mongoDB ingestion
+Took 1055.9820222854614 seconds to finish the task
