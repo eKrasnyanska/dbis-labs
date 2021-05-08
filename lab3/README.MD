@@ -6,6 +6,8 @@ P.S. Take some time for the sever to generate you malls and shops 10-15 seconds 
 (I was using US servers, so it takes some time)
 http://shopfinderrr.herokuapp.com/
 
+![alt text](https://github.com/eKrasnyanska/dbis-labs/blob/master/lab3/client/src/assets/custom_logo_1.png?raw=true)
+
 ## Preface
 
 In ShopFinder you can add shops to malls and create malls separately from shops.
@@ -125,7 +127,14 @@ Basically you can test back and front separately for debugging
 ### Back-end:
 1. Do migrations stuff
 2. Run  python server/main.py
+3. Enjoy
 
 ### Front-end
 1. cd client; npm install
 2. npm run dev
+
+or you can
+
+1. cd client; npm run build
+2. node server.js
+3. Enjoy
