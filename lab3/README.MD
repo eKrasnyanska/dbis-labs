@@ -129,6 +129,8 @@ Basically you can test back and front separately for debugging
 2. Run  python server/main.py
 3. Enjoy
 
+P.S. you can check the backend on Heroku using the 
+
 ### Front-end
 1. cd client; npm install
 2. npm run dev
@@ -138,3 +140,6 @@ or you can
 1. cd client; npm run build
 2. node server.js
 3. Enjoy
+
+## ERD
+![alt text](https://github.com/eKrasnyanska/dbis-labs/blob/master/lab3/public-db-schema.png?raw=true)
